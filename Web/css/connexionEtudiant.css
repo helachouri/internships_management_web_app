@@ -1,0 +1,108 @@
+body {
+  background: #e9e9e9;
+  color: #666666;
+  font-family: 'RobotoDraft', 'Roboto', sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+.content-wrap {
+  margin-top: 0px !important;
+  padding: 0px !important;
+}
+
+/* Title */
+.header {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
+  background-color: #33b5e5;
+  font-size: 30px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  line-height: 75px;
+  margin: 0 auto;
+}
+
+/* Logo INPT */
+.logo_INPT {
+  position: absolute;
+  right: 20px;
+  bottom: 14px;
+}
+.logo_INPT img {
+  width: 100px;
+}
+
+
+/* Form Module */
+.form-module {
+  position: relative;
+  background: #ffffff;
+  max-width: 320px;
+  width: 100%;
+  border-top: 5px solid #33b5e5;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  margin: 80px auto;
+}
+
+.form-module .form {
+  display: none;
+  padding: 40px;
+}
+.form-module .form:nth-child(2) {
+  display: block;
+}
+.form-module h2 {
+  margin: 0 0 40px;
+  color: #33b5e5;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+  text-align: center;
+}
+.form-module .input {
+  outline: none;
+  display: block;
+  width: 100%;
+  border: 1px solid #d9d9d9;
+  margin: 0 0 20px;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  font-wieght: 400;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.form-module .input:focus {
+  border: 1px solid #33b5e5;
+  color: #333333;
+}
+.form-module button {
+  cursor: pointer;
+  background: #33b5e5;
+  width: 100%;
+  border: 0;
+  padding: 10px 15px;
+  color: #ffffff;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.form-module button:hover {
+  background: #178ab4;
+}
+.form-module .checkbox {
+  padding: 15px 0px 40px 20px;
+  color: #666666;
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+h1 small {
+  color: white;
+}

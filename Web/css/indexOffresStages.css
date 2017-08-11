@@ -1,0 +1,70 @@
+h1 {
+				font-size: 30px;
+				color: #33b5e5;
+				text-transform: uppercase;
+				font-weight: 300;
+				text-align: center;
+				margin-bottom: 30px;
+			}
+	      	table {
+	        	width:100%;
+	        	table-layout: fixed;
+	      	}
+	      	.tbl-header {
+	        	background-color: #33b5e5;
+	       	}
+	      	.tbl-content {
+	        	height:300px;
+	        	overflow-x:auto;
+	        	margin-top: 0px;
+	        	border: 1px solid rgba(51,181,229,0.5);
+	      	}
+	      	th {
+	        	padding: 20px 15px;
+	        	text-align: left;
+	        	font-weight: 500;
+	        	font-size: 12px;
+	        	color: #fff;
+	        	text-transform: uppercase;
+	      	}
+	      	td {
+	        	padding: 15px;
+	        	text-align: left;
+	        	vertical-align:middle;
+	        	font-weight: 300;
+	        	font-size: 12px;
+	        	color: #3498db;
+	        	border-bottom: solid 1px rgba(51,181,229,0.3);
+	      	}
+	      	section{
+	        	margin: 50px;
+	      	}
+	      	.glyphicon {
+				color: #33b5e5 !important;
+				font-size: 20px;
+				margin: 0 15px 0 15px;
+			}
+			.title {
+				text-transform: uppercase;
+				font-weight: 220;
+			}
+
+	      	/* for custom scrollbar for webkit browser*/
+	      	::-webkit-scrollbar {
+	        	width: 6px;
+	      	} 
+	      	::-webkit-scrollbar-track {
+	            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+	      	} 
+	      	::-webkit-scrollbar-thumb {
+	            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+	      	}
+	      	footer .glyphicon-chevron-up{
+				color: #fff !important;
+			}
+
+			.mybtn {
+				color: #2c3e50;
+				font-size: 10px;
+				padding-bottom: 5px;
+			}

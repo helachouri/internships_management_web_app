@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<routes>
+	<route url="/offres/" module="OffresStages" action="index" />
+	<route url="/offres/offre-([0-9]+)\.html" module="OffresStages" action="show" vars="id" />
+
+	<route url="/infos-etudiant\.html" module="Etudiant" action="inquire" />
+	<route url="/" module="Etudiant" action="connexion" />
+	<route url="/deconnexion\.html" module="Etudiant" action="deconnexion" />
+	<route url="/generer-LR\.html" module="Etudiant" action="generate" />
+
+	<route url="/declarer-stage/" module="Convention" action="declare" />
+	<route url="/declarer-stage/telecharger\.html" module="Convention" action="index" />
+	<route url="/generer-convention\.html" module="Convention" action="generate" />
+
+	<route url="/accueil\.html" module="Accueil" action="index" />
+</routes>

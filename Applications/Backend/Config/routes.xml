@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<routes>
+	<route url="/admin/accueil\.html" module="Accueil" action="index" />
+
+	<route url="/admin" module="Connexion" action="index" />
+	<route url="/admin/deconnexion\.html" module="Connexion" action="deconnexion" />
+
+	<route url="/admin/gestionOffres" module="OffresStages" action="index" />
+	<route url="/admin/gestionOffres/offre-insert\.html" module="OffresStages" action="insert" />
+	<route url="/admin/gestionOffres/offre-update-([0-9]+)\.html" module="OffresStages" action="update" vars="id" />
+	<route url="/admin/gestionOffres/offre-delete-([0-9]+)\.html" module="OffresStages" action="delete" vars="id" />
+	<route url="/admin/gestionOffres/offre-([0-9]+)\.html" module="OffresStages" action="show" vars="id" />
+
+	<route url="/admin/gestionEtudiant" module="Etudiant" action="index" />
+	<route url="/admin/gestionEtudiant/etudiant-([0-9]+)\.html" module="Etudiant" action="show" vars="id" />
+	<route url="/admin/gestionEtudiant/mailing\.html" module="Etudiant" action="mailing" />
+	<route url="/admin/gestionEtudiant/mailing2\.html" module="Etudiant" action="mailing2" />
+
+	<route url="/admin/gestionEtudiant/listeEtudiants1\.html" module="Excel" action="generate1" />
+	<route url="/admin/gestionEtudiant/listeEtudiants2\.html" module="Excel" action="generate2" />
+	<route url="/admin/gestionEtudiant/listeEntreprises\.html" module="Excel" action="generate" />
+</routes>
