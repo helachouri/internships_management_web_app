@@ -1,4 +1,4 @@
-# Internships_management_web_app
+# Internships Management Web App
 Internships management web application made with PHP and MySQL
 
 Author : EL ACHOURI Hamza
